@@ -4,22 +4,12 @@ Esse repositório reúne algumas coisas que eu produzi enquanto aluno da Univers
 
 # Semestre 1
 
-## Introdução à Computação I
-
-### Projeto 1: Transformada do Cosseno
-* [PENDENTE]
-
-### Projeto 2: Manipulação de Arquivos 
-* [PENDENTE]
-
-
 ## Eletrônica Para Computação
 ### Projeto 1: Fonte de Tensão Ajustável
-* [PENDENTE]
+* https://github.com/barbosafausto/FTA.git
 
 ### Projeto 2: Sensor de Estacionamento
-* [PENDENTE]
-
+* https://github.com/barbosafausto/Parking-Sensor#
 
 ## Prática em Lógica Digital
 * [PENDENTE]
