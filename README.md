@@ -43,11 +43,6 @@ Esse repositório reúne algumas coisas que eu produzi enquanto aluno da Univers
 ### 💻 Laboratório de Introdução à Ciência da Computação 2
 [Em breve]
 
-### : Prática em Sistemas Digitais
-
-#### 💻 Projeto: CPU com Quartus Prime
-[Em breve]
-
 
 
 ## 🥉 Semestre 3
