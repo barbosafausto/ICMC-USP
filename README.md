@@ -2,8 +2,12 @@
 
 Esse repositório reúne algumas coisas que eu produzi enquanto aluno da Universidade de São Paulo (USP). Nos arquivos deste repositório, você poderá encontrar **resumos** que fiz durante a graduação, com ênfase nas disciplinas de programação. Neste README, estão listados os repositórios de alguns **projetos** que fiz.
 
-# 💯 Melhor Projeto (Atual)
-* https://github.com/barbosafausto/Sistema-de-Pronto-Socorro-V2/tree/master
+## 💯 Melhor Projeto (Atual)
+
+### 🏗️ Semestre 2 -Algoritmos e Estruturas de Dados
+#### Projeto 2: Sistema de Pronto Socorro (Árvores)
+
+* https://github.com/barbosafausto/Sistema-de-Pronto-Socorro-V2/
 
 
 ## 🥇 Semestre 1
