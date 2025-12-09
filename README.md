@@ -4,7 +4,7 @@ Esse repositório reúne algumas coisas que eu produzi enquanto aluno da Univers
 
 ## 💯 Melhor Projeto (Atual)
 
-### 🏗️ Semestre 2 -Algoritmos e Estruturas de Dados
+### 🏗️ Semestre 2 - Algoritmos e Estruturas de Dados
 #### Projeto 2: Sistema de Pronto Socorro (Árvores)
 
 * https://github.com/barbosafausto/Sistema-de-Pronto-Socorro-V2/
