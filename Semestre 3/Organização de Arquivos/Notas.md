@@ -19,6 +19,8 @@
 
 ### Organização
 
+#### Físico
+
 * **Disco**: conjunto de pratos empilhados
 
 * **Superfícies**: são organizadas em trilhas
@@ -27,6 +29,8 @@
 * <span style="color:ORANGE;"> **Trilhas**</span>: são organizadas em <span style="color:ORANGE;"> **Setores**</span> (menor porção endereçável do disco)
 
 * **Cilindro**: conjunto de trilhas na mesma posição
+
+#### Lógico
 
 * <span style="color:ORANGE;"> **Página de Disco**</span>: conjunto de setores **logicamente** contíguos (4KB)
     * O sistema vê um arquivo como um conjunto de páginas de disco
