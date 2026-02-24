@@ -2,6 +2,8 @@
 
 Esse repositório reúne algumas coisas que eu produzi enquanto aluno da Universidade de São Paulo (USP). Nos arquivos deste repositório, você poderá encontrar **resumos** que fiz durante a graduação, com ênfase nas disciplinas de programação. Neste README, estão listados os repositórios de alguns **projetos** que fiz.
 
+⚠️ <span style="color: ORANGE">**Se for usar algum resumo, recomendo fazer o download para melhor visualização.**</span>  O suporte de LaTeX do Github é um tanto limitado.
+
 ## 💯 Melhor Projeto (Atual)
 
 ### 🏗️ Semestre 2 - Algoritmos e Estruturas de Dados
