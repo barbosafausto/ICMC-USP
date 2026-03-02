@@ -50,12 +50,61 @@ Pense em encaixar a imagem de uma função de $m$ dimensões em outra de $n$ dim
 > Caso o domínio $D$ seja tal que um dos eixos depende do outro ($y = g(x)$), deve-se integrar primeiro na variável dependente.
 
 $$
-\int\int_D f(x, y)dA = \int_a^b \Big( \int_{g_1(x)}^{g_2(x)} f(x)dy \Big) dx
+\int\int_D f(x, y)dA = \int_a^b \Big( \int_{g_1(x)}^{g_2(x)} f(x, y)dy \Big) dx
 $$
 
-Assim, fixa-se um $x = x_0 \in [a, b]$ e começa-se integrando no intervalo $[g_1(x_0), g_2(x_0)]$
+Assim, fixa-se o $x$ e começa-se integrando no intervalo $[g_1(x), g_2(x)]$.
+
+
+## Mudança de Variáveis
 
 
 
 
+## Apêndice
+
+### Momento Angular $(M)$
+
+#### Reta
+
+$$
+M_{x=x_0} = \sum m_i(x_i - x_0) 
+$$
+
+#### Plano
+
+$$
+M_{x=x_0} = \int\int_D (x - x_0)\delta(x, y)dA
+$$
+
+Em que $\delta(x, y)$ é a densidade superficial no ponto $(x, y)$.
+
+> Idem para $M_{y=y_0}$.
+
+
+### Centro de Gravidade $(x_G)$
+
+#### Reta
+
+$$
+M_{x=x_G} = 0 \implies \sum m_i(x_i - x_G) = 0
+$$
+
+$$
+\sum x_im_i = x_G\sum m_i \implies \boxed{x_G = \frac{\sum x_im_i}{\sum m_i}}
+$$
+
+#### Plano
+
+$$
+\boxed{M_{x = x_G} = 0 = M_{y=y_G}}
+$$
+
+$$
+x_G = \frac{\int\int_D x\cdot\delta(x,y)dA}{\int\int_D \delta(x,y)dA}
+$$
+
+> Idem para $y_G$.
+
+> Note, então, que o Centro de Gravidade é o Momento em relação à origem dividido pela Massa.
 

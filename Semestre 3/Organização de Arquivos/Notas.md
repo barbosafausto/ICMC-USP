@@ -60,8 +60,23 @@
     * "Instala" o sistema de arquivos no disco
     * Subdivide o disco em regiões endereçáveis
 
+## Revisão da Aula
 
-## Posição Corrente no Arquivo (prox. aula)
+```
+se a página de disco está em RAM
+    então usa a página sem acessos a disco
+senão
+    então acessa o disco para transferir 1 página p/ RAM
+        se existe espaço na RAM
+            então escreve a página na RAM
+        senão, falha de páginas
+            aplico políticas de subst. de páginas (LRU)
+            se a página foi alterada
+            escreve no disco 
+            escreve a nova página na RAM
+```
+
+## Posição Corrente no Arquivo 
 
 > Abstração que permite ao sistema indicar onde um arquivo deve ser lido ou escrito
 
@@ -76,6 +91,34 @@
 ### Descritor do Arquivo
 
 * Estrutura usada pelo sistema de arquivos para gerenciar arquivos
+
+
+## Organização em Campos/Registros
+
+Registro (Disco) $\implies$ *Struct* (RAM)
+
+### Byte Offset
+
+O *byte offset* zero é a posição inicial absoluta de um arquivo.
+
+### Métodos
+
+Tamanho fixo
+ * Mais rápido, porém despediça mais memória
+
+Tamanho variável
+ * Struct começa cada campo com um **indicador** de tamanho ou (exclusivo) possui **delimitador** após cada campo.
+
+ #### Tamanho Fixo
+
+ Permite pular registros/campos rapidamente, via multiplicação do tamanho do registro/campo pelo $RRN$.
+
+ <span style="color:RED">**Falta falar sobre RRN.**</span>
+
+
+
+
+
 
 
 
