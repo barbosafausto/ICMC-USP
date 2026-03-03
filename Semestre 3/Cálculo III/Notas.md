@@ -58,12 +58,77 @@ Assim, fixa-se o $x$ e começa-se integrando no intervalo $[g_1(x), g_2(x)]$.
 
 ## Mudança de Variáveis
 
+> Mudança de variáveis consiste na "melhora" do nosso domínio de integração por meio de um mapeamento entre domínios.
+
+Se temos uma função $f(x, y)$ no domínio $D$, podemos trabalhar num domínio $R$ fazendo o mapeamento:
+
+$$
+\phi(u, v)  \to (x(u, v), y(u, v)) \therefore f(\phi(u, v)) = f(x, y)
+$$
+
+Essa relação nos faz associar uma partição em $R$ com uma partição em $D$ que não necessariamente possuem a mesma área. Para corrigir esta área, usamos o Jacobiano $(J)$:
+$$
+\det(J) = 
+\begin{vmatrix}
+\frac{\partial x}{\partial u} \quad \frac{\partial y}{\partial u} \\
+\\
+\frac{\partial x}{\partial v} \quad \frac{\partial y}{\partial v}
+\end{vmatrix}
+$$
+
+De modo que:
+$$
+\int\int_D f(x, y)dxdy = \int\int_Rf(\phi(u, v))|J|dudv
+$$
+
+❗A ideia é análoga para integrais triplas. 
+
+No apêndice A, você pode ver o porquê disso ser verdade.
+
+### Coordenadas Polares
+
+Em coordenadas polares: $(x, y) = (r\cos\theta, r\sin\theta)$, o Jacobiano será:
+$$
+\boxed{J = r}
+$$
+
+
+## Apêndice A: Jacobiano
+
+### O Problema
+
+Peguemos um retângulo infinitesimal no plano $u \times v$. Esse retângulo tem área $A_r = \Delta u\cdot \Delta v$, mas ele é mapeado de modo distorcido para o plano $x \times y$. Logo, fica o desafio: **como corrigir esta área**?
+
+### A Solução
+
+No plano $x \times y$, $\Delta u$ e $\Delta v$ estão distorcidos de modo a aproximar um paralelogramo.
+
+Para calcular a área do paralelogramo, precisamos aproximar a medida dos seus lados $a$ e $b$:
+
+$$
+a = \Big(\frac{\partial x}{\partial u}du, \frac{\partial y}{\partial u}du\Big)(î, ĵ) 
+
+\quad 
+
+b = \Big( \frac{\partial x}{\partial v}dv, \frac{\partial y}{\partial v}dv \Big) (î, ĵ)
+$$
+
+Dadas essas aproximações, sabemos que a área será dada pelo módulo do produto vetorial $a \times b$. Calculando o produto vetorial, fica claro que o módulo é dado por:
+
+$$
+
+dA = |det(J)| = ||a \times b|| = |
+\begin{vmatrix}
+\frac{\partial x}{\partial u} \quad \frac{\partial y}{\partial u} \\
+\\
+\frac{\partial x}{\partial v} \quad \frac{\partial y}{\partial v}
+\end{vmatrix} |
+du dv
+$$
 
 
 
-## Apêndice
-
-### Momento Angular $(M)$
+## Apêndice B: Momento Angular $(M)$
 
 #### Reta
 

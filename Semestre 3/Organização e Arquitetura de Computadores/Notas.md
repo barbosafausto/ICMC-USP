@@ -91,6 +91,52 @@ $$
 
 > Exige uso de **load** e **store** para lidar com dados. As instruções possuem tamanho fixo de 32 bits.
 
+## Arquitetura de von Neumann
+> Composta por componentes lógicos básicos + programação
+$$\text{Hardware} \implies \text{System Software} \implies \text{Applications Software}$$
+
+1. Dados e instrução são representados na <u>memória</u>;
+2. A memória é endereçada pela <u>posição</u> e não pelo conteúdo; e
+3. A execução das instruções é considerada <u>sequencial</u>.
+
+❗É a Unidade de Controle que permite que o Hardware seja de *propósito geral*, pois o torna capaz de decodificar diferentes instruções.
+
+### CPU
+
+UC + ULA
+
+### E/S
+
+Permite comunicação com o mundo exterior
+
+### Memória
+
+Fornece instruções para execução e armazena resultados fora da CPU.
+
+## Ciclo de Instrução
+
+### Ciclo de Busca
+
+1. PC possui o endereço da próxima instrução, o qual é buscado na memória.
+    * MAR = PC
+    * MBR = memória(MAR)
+
+2. Incrementa o PC
+3. A instrução é armazenada no registrador de instrução (IR)
+    * IR = MBR
+
+### Ciclo de Execução
+
+1. UC decodifica a instrução do IR e determina as ações necessárias.
+2. A execução será:
+    * Processador-Memória: transferência de dados;
+    * Processador-E/S: transferência de dados;
+    * Processamento de dados: operações aritméticas (ULA) ou lógicas;
+    * Controle: altera a sequência de instruções; ou
+    * Combinação das anteriores.
+
+
+
 
 
 

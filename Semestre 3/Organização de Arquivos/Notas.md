@@ -103,17 +103,20 @@ O *byte offset* zero é a posição inicial absoluta de um arquivo.
 
 ### Métodos
 
-Tamanho fixo
- * Mais rápido, porém despediça mais memória
-
-Tamanho variável
- * Struct começa cada campo com um **indicador** de tamanho ou (exclusivo) possui **delimitador** após cada campo.
+#### Tamanho variável
+ 
+ Campos/Registro começa cada campo com um **indicador** de tamanho ou (exclusivo) possui **delimitador** após cada campo.
 
  #### Tamanho Fixo
+ 
+ Mais rápido, porém despediça mais memória
 
- Permite pular registros/campos rapidamente, via multiplicação do tamanho do registro/campo pelo $RRN$.
 
- <span style="color:RED">**Falta falar sobre RRN.**</span>
+ Permite pular registros/campos rapidamente. 
+ 
+ * No casos dos registros, isso ocorre via multiplicação do tamanho do registro/campo pelo *Relative Record Number* $(RRN)$.
+
+ * O $RRN$ fornece a <u>posição relativa</u> de cada registro no arquivo, permitindo colocar o **byte offset** na posição desejada.
 
 
 
