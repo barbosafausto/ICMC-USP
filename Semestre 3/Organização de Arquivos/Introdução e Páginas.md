@@ -87,6 +87,7 @@ senão
 
 * Um registro de cabeçalho
 * Registros de dados
+    * <span style="color: ORANGE;">**É fixo ou variável para um arquivo inteiro; não é misto.**</span>
 
 ### Descritor do Arquivo
 
@@ -117,6 +118,8 @@ O *byte offset* zero é a posição inicial absoluta de um arquivo.
  * No casos dos registros, isso ocorre via multiplicação do tamanho do registro/campo pelo *Relative Record Number* $(RRN)$.
 
  * O $RRN$ fornece a <u>posição relativa</u> de cada registro no arquivo, permitindo colocar o **byte offset** na posição desejada.
+
+
 
 
 

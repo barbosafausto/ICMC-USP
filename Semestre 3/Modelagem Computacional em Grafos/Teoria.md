@@ -49,8 +49,6 @@ $$
 |E| = C_n^2 = \frac{n(n-1)}{2}
 $$
 
-É conexo.
-
 ### Grau
 
 > O grau $d(v)$ de um vértice $v$ corresponde ao número de arestas incidentes (convergentes) a $v$.
@@ -111,6 +109,58 @@ $$
 ### Grafo Fortemente Conexo
 
 > É um grafo orientado no qual há um caminho entre todos os vértices.
+
+### Mais sobre Grafos
+
+#### Grafo Bipartido
+
+> Um grafo $G = (V, E)$ é <u>bipartido</u> quando o seu conjunto de vértices $V$ puder ser dividido em dois subconjuntos $V_1$ e $V_2$ tais que toda aresta do conjunto $E$ une um vértice de $V_1$ a outro vértice de $V_2$.
+* <span style="color: GREEN">**Em outras palavras, toda aresta  $e \in E$ liga vértices de diferentes conjuntos.**</span>
+
+
+#### Bipartido Completo ($k_{|V_1|, |V_2|}$)
+
+> Todo vértice de um conjunto se conecta a todos os vértices do outro conjunto.
+
+#### Complemento
+> O <u>complemento</u> de um grafo $G = (V, E)$ a um grafo $G' = (V', E')$ é tal que $V' = V$ e $E'$ é complementar a $E$.
+* Em outras palavras, o complemento de um grafo $G$ são as arestas que poderiam ser inseridas.
+
+### Isomorfismo
+
+> Dois grafos são isomorfos se apresentam o mesmo número de vértices e arestas e existe uma função unívoca $f: V \implies V'$ tal que $e = (x, y) \in E \Leftrightarrow e = (f(x), f(y)) \in E'$.
+
+### Árvore
+
+> Grafo conexo e acíclico.
+
+#### Árvore Enraizada
+
+> É direcionada. A raiz funciona com uma <u>fonte</u> ($d_{in} = 0$).
+
+### Floresta
+
+> Conjunto de árvores.
+
+### Subgrafos
+
+#### Subgrafo Gerador
+
+> Um subgrafo gerador de $G = (V, E)$ é tal que $G' = (V', E')$ e $V' = V$ com $E' \subseteq E"$
+* O subgrafo tem o mesmo número de vértices do grafo original, mas com menos arestas.
+
+#### Árvore Geradora
+
+> A árvore geradora de um grafo é um subgrafo gerador que forma uma árvore.
+* $|E'| = |V| - 1$
+ 
+#### Subgrafo Induzido 
+
+> É tal que $G' = (V', E')$ de modo que $V' \subseteq V$ e $E'$ possui todas as arestas que o grafo original tem entre elementos $(u, v) \in V'$.
+
+
+
+
 
 
 
