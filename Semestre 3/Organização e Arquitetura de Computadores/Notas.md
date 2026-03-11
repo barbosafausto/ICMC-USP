@@ -44,13 +44,25 @@ Se uma memória tem 32 GB, são necessários $2^3 \cdot 2^{30}$ bits para endere
 
 #### Exemplo de Uso
 
+<span style="color: RED;">**Preciso desenhar.**</span>
+
 * **UC**: Control Unit
+    * Decodifica o código de cada instrução/dado.
+
+* **AC**: Acumulator
+    * Faz envio para o MBR quando precisamos escrever na memória
+    * MBR $\implies$ Mem
 
 * **PC**: Program Counter
 
 * **MAR**: Memory Address Register (Endereço)
+    * Recebe PC na fase de **busca**.
+    * Recebe IR na fase de **execução**.
 
-* **MBR**: Memory Buffer Register (Dados)
+* **MBR**: Memory Buffer Register (Instrução/Dados)
+    * Na fase de busca, tem instrução; na fase de execução, tem dado.
+    * Instrução é enviada para o IR;
+    * Dado é enviado para o AC.
 
 * **IR**: Instruction Register
 
@@ -134,6 +146,30 @@ Fornece instruções para execução e armazena resultados fora da CPU.
     * Processamento de dados: operações aritméticas (ULA) ou lógicas;
     * Controle: altera a sequência de instruções; ou
     * Combinação das anteriores.
+
+
+<span style="color: ORANGE;">**No ciclo de execução, o MBR envia os valores para o Acumulador (AC).**</span>
+
+
+### Máquina Hipotética - Arquitetura CISC.
+
+#### Códigos de Operações
+
+0001: Acumulador $\leftarrow$ Mem
+
+0010: Mem $\leftarrow$ AC
+
+0101: AC $\leftarrow$ AC + Mem
+
+#### Formato das Instruções
+
+4 bits para <u>código da operação</u>; 12 bits para <u>endereço</u>.
+
+Os números inteiros são representados com <u>sinal magnitude</u>.
+
+<span style="color: RED;">**O que vai para a Unidade de Controle são os 4 bits de código da operação.**</span>
+
+
 
 
 
