@@ -65,6 +65,49 @@ Treinamento em 10 trilhões de palavras, com cerca de 2000 GPUs por 2 meses. Al�
 ### Conclusões
 > Precisamos de um aprimoramento da infraestrutura computacional para a nova época da IA.
 
+## A Língua
+
+### Língua *x* Linguagem
+
+* **Linguagem**: capacidade humana de comunicação e suas manifestações, de forma verbal ou não.
+    * Envolve o aparato físico e mental/cognitivo.
+
+* **Língua**: código de comunicação utilizado por uma comunidade.
+
+### Estrutura da Língua
+
+![](image.png)
+
+### Conhecimento Linguístico
+
+* <u>Superficial *x* Profundo</u>, <u>Simbolismo *x* Estatísticas</u>
+
+> Ideal adotar um sistema híbrido.
+
+#### Chomsky
+
+A Linguagem é (biologicamente) inata.
+
+> Racionalismo e Gerativismo
+
+Córpus
+
+#### Empirismo
+
+> A mente não vem com princípios e procedimentos pré-determinados, mas com operações gerais de associação, reconhecimento de padrões e generalizações.
+* Estímulo sensorial se torna essencial para o aprendizado da língua.
+
+### Dualidade Córpus/Instrospecção
+
+> Eric Laporte
+
+
+
+
+
+
+
+
 
 
 
