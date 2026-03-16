@@ -6,12 +6,12 @@
 
 ### Complexidade Temporal
 
-* Busca, remoção ou inserção de aresta $e_{ij}$: $O(d)$. 
+* Busca, remoção ou inserção de aresta $e_{ij}$: $O(1)$. 
 
 
 ## Estrutura de Adjacências
 
-> Mais elaborado: complexidade espacial $O(n + m)$.
+> Mais elaborado: complexidade espacial $O(n + m)$
 
 ### Complexidade Temporal
 
