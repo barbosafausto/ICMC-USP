@@ -21,7 +21,7 @@
 * É endereçado a <u>byte</u>.
 
 
-## Assembly
+## Assembly (RV32I, RV32C)
 
 > A estrutura do código em Assembly é composta por <u>diretivas</u>, <u>rótulos</u> e <u>ecall</u> (entrada e saída).
 
@@ -41,6 +41,11 @@ Este é o espaço para a declaração de variáveis estáticas.
 Este é o espaço reservado para o código fonte, cujo tamanho não vai mudar com a execução do código.
 
 ❗Os segmentos são separados por diretivas.
+
+#### $.align$
+
+> Obriga a posição inicial da memória acessada por um *load* ou *store* seja múltipla de um valor específico.
+* *.align 1* $\to$ a posição inicial é múltipla de $2^1 = 2 $.
 
 #### Tipagem
 
@@ -80,6 +85,21 @@ Após isso, colocamos 10 em `a7`. Note que `10` representa a função `exit` na 
 
 <img src="images/registers.png" alt="alt text" width="500"/>
 <img src="images/funcoes.png" alt="alt text" width="500"/>
+
+### Tipos de Instrução
+
+#### Tipo I
+> 12 bits: valor imediato; 5 bits: registrador fonte 1 (rs1); 3 bits: (funk?) f3; 5 bits: registrador destino; 7 bits: opcode
+
+* f3 diz o que puxar da memória (halfword, word, byte, etc.)
+
+
+### Tipo U (Upper)
+> 20 bits: valor imediato; 5 bits: registrador destino; 7 bits: opcode
+
+
+
+
 
 
 

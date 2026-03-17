@@ -55,6 +55,17 @@ $$
 
 Assim, fixa-se o $x$ e começa-se integrando no intervalo $[g_1(x), g_2(x)]$.
 
+### Generalização
+
+❗A ideia é análoga para integrais triplas. Dessa forma, teríamos:
+1. $x \in [a, b]$
+2. $y \in [f(x), g(x)]$
+3. $z \in [u(x, y), v(x, y)]$
+
+Há, claro, outras 5 formas ($3! - 1$) de rearranjar isso.
+
+
+
 
 ## Mudança de Variáveis
 
@@ -92,6 +103,58 @@ $$
 \boxed{J = r}
 $$
 
+### Coordenadas Cilíndricas
+
+Em coordenadas cilíndricas: $(x, y, z) = (r\cos\theta, r\sin\theta, v, z)$. Nesse caso:
+
+$$
+\det(J) = 
+\begin{vmatrix}
+\frac{\partial x}{\partial r} \quad \frac{\partial x}{\partial \theta} \quad \frac{\partial x}{z}\\
+\\
+\frac{\partial y}{\partial r} \quad \frac{\partial y}{\partial \theta} \quad \frac{\partial y}{\partial z} \\
+\\
+\frac{\partial z}{\partial r} \quad \frac{\partial z}{\partial \theta} \quad \frac{\partial z}{\partial z}
+
+\end{vmatrix} 
+
+= 
+
+\begin{vmatrix}
+\cos\theta \quad -r\sin\theta \quad 0\\
+\\
+\sin\theta \quad\quad r\cos\theta \quad 0 \\
+\\
+0  \quad\quad\quad 0 \quad\quad\quad 1
+
+\end{vmatrix} 
+
+= r
+$$
+
+### Coordenada Esféricas
+Aqui, teremos: $f(x, y, z) = w(\rho, \theta, \phi)$, em que:
+
+1. $\boxed{\rho = \sqrt{x^2 + y^2 + z^2}}$ é a distância de um dado ponto à origem do sistema de coordenadas;
+2. $\boxed{0 \leq \theta < 2\pi}$ é o ângulo, no sentido **anti-horário** entre a projeção do ponto no plano $xy$ e o eixo $x$.
+3. $\boxed{0 \leq \phi \leq \pi}$ é o ângulo entre o ponto e o eixo $z$.
+
+
+Dessa maneira:
+$$
+f \to g =
+\begin{cases}
+x = \rho\cos\theta\sin\phi \\
+y = \rho\sin\theta\sin\phi \\
+z = \rho\cos\phi
+\end{cases}
+$$
+
+Nesse caso, o Jacobiano pode ser calculado ne maneira análoga às coordenadas polares e cilíndricas. Podemos provar que:
+
+$$
+J = -\rho^2\sin\phi \therefore \boxed{|J| = \rho^2\sin\phi}
+$$
 
 ## Apêndice A: Jacobiano
 
