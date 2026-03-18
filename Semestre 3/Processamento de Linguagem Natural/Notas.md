@@ -101,6 +101,64 @@ Córpus
 
 > Eric Laporte
 
+## Processamento Linguístico
+> Universal Dependencies (UD)
+
+### Sons
+
+#### Fonética
+
+Estuda os sons que os humanos produzem, transmitem e recebem, independente da língua.
+
+#### Fonologia
+
+Estudo dos sons em uma uma língua específica: como os sons são construídos.
+
+
+### Morfologia
+
+Palavra: construção e componentes de formação.
+* Morfema, raiz, afixo, vogal temática, desinência...
+
+
+### Sintaxe
+
+Une-se à morfologia e dá existência às <u>classes gramaticais</u>.
+* Substantivo/nome, verbo, adjetivo, advérbio, pronome...
+
+
+### Semântica
+
+Palavras, expressões, orações, sentenças, textos... 
+
+Abstrato. 
+
+#### Semântica Lexical
+
+Relações "lexicais": <u>taxonomias</u> e ontologias.
+* Sinonímias, antonímia, hiperonomínia/hiponímia...
+
+Classes/categorias/tipos
+
+Função semântica: agente, tema...
+
+Emoções
+
+### Pragmática / Discurso
+
+#### Discurso
+
+O que vai além da sentença.
+* "Ele queria jogar tênis com Janete, mas também queria jantar com Suzana. Sua indecisão o deixou louco."
+
+
+#### Pragmática
+
+Língua em uso. Contexto de uso.
+
+
+
+
 
 
 
