@@ -236,3 +236,6 @@ $$
 
 > Note, então, que o Centro de Gravidade é o Momento em relação à origem dividido pela Massa.
 
+
+## Apêndice C: Centro de Massa
+

@@ -16,7 +16,9 @@ main:
 		la t0, str_src
 		la t1, str_dst
 		
-loop_copy:	lb s0, 0(t0) 	# carrega em s0 o que está em t0 (posição inicial)
+loop_copy:	
+
+		lb s0, 0(t0) 	# carrega em s0 o que está em t0 (posição inicial)
 		sb s0, 0(t1)	# armazena o que está em s0 em t1 (posição inicial)
 		
 		addi t0, t0, 1  # sobe 1 byte

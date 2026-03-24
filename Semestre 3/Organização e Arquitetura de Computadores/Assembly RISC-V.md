@@ -86,17 +86,9 @@ Após isso, colocamos 10 em `a7`. Note que `10` representa a função `exit` na 
 <img src="images/registers.png" alt="alt text" width="500"/>
 <img src="images/funcoes.png" alt="alt text" width="500"/>
 
-### Tipos de Instrução
 
-#### Tipo I
-> 12 bits: valor imediato; 5 bits: registrador fonte 1 (rs1); 3 bits: (funk?) f3; 5 bits: registrador destino; 7 bits: opcode
-
-* f3 diz o que puxar da memória (halfword, word, byte, etc.)
-
-
-### Tipo U (Upper)
-> 20 bits: valor imediato; 5 bits: registrador destino; 7 bits: opcode
-
+1. Parâmetros: a0 e a7
+2. Retorno: a0 e a1 
 
 
 
