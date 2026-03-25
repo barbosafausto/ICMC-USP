@@ -237,5 +237,22 @@ $$
 > Note, então, que o Centro de Gravidade é o Momento em relação à origem dividido pela Massa.
 
 
-## Apêndice C: Centro de Massa
+## Apêndice C: Momento de Inércia
+
+### Partículas
+
+$$
+I = \sum_i^n m_i r_i^2
+$$
+
+Em que $m_i$ é a massa da partícula $i$ e $r_i$ é a sua distância ao eixo de rotação.
+
+### Corpos Extensos
+
+$$
+I = \int\int_D \delta(x, y)\cdot r^2dA
+$$
+
+Em que $\delta(x, y)$ descreve a densidade superficial do corpo.
+
 

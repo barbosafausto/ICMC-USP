@@ -88,7 +88,7 @@ Após isso, colocamos 10 em `a7`. Note que `10` representa a função `exit` na 
 
 
 1. Parâmetros: a0 e a7
-2. Retorno: a0 e a1 
+2. Retorno: a0 e a1
 
 
 
