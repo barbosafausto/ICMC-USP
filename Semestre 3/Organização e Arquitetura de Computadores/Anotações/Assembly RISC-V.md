@@ -83,12 +83,14 @@ Nesse caso, nós imprimos a string contida em `a0`, porque o registrador `a7` co
 
 Após isso, colocamos 10 em `a7`. Note que `10` representa a função `exit` na figura abaixo.
 
-<img src="images/registers.png" alt="alt text" width="500"/>
-<img src="images/funcoes.png" alt="alt text" width="500"/>
+<img src="../images/registers.png" alt="alt text" width="500"/>
+<img src="../images/funcoes.png" alt="alt text" width="500"/>
 
 
 1. Parâmetros: a0 e a7
 2. Retorno: a0 e a1
+
+
 
 
 
