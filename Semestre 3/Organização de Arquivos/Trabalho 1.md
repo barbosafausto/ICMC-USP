@@ -144,7 +144,7 @@ strsep() //do GNU
     * Único caso em que deve-se percorrer todo o arquivo para certificar do número de estações atualizado.
 
 
-### Função 5: INSERRT
+### Função 5: INSERT
 
 1. Tratar valor nulo
 

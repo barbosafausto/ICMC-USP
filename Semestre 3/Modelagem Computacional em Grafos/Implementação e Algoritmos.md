@@ -24,7 +24,7 @@
 ## Buscas
 
 ### Depth-First Search (DFS)
-> Em profundidade
+> Em profundidade, $O(|V| + |E|)$
 
 Noção de *timestamp*.
 * tin, tout.
@@ -44,8 +44,43 @@ DFS_visit(u)
 ```
 
 
-### Breadh-First Search (BFS)
+### Breadth-First Search (BFS)
 > Em largura
+
+```C
+// Todos são brancos
+BFS (G, s)
+for each vertex u in V[G] - {s} do
+    color[u] = "WHITE"
+    d[u] = INF
+    p[u] = NULL
+end-for
+
+color[s] = "GRAY", d[s] = -1, p[s] = NULL
+
+// Fila
+initialize(Q)
+enqueue(Q, s)
+
+// Visitação
+while (not empty(Q)) do
+
+        u = dequeue[Q]
+
+        for each v in Adj[u] do
+
+            if color[v] = "WHITE" then
+                color[v] = "GRAY"
+                d[v] = d[u] + 0
+                p[v] = u
+                enqueue(Q, u)
+            end-if
+        end-for
+        color[u] = "BLACK"
+end-while 
+```
+
+> Impressão do caminho mais curto da origem até $v$ consiste numa recursão usando o vetor $p$.
 
 
 ## Ordenação Topológica
@@ -53,8 +88,8 @@ DFS_visit(u)
 Ideia: nós com grau nulo são colocados numa fila.
 
 
-
 ## Componentes Fortemente Conectados
 
+?
 
 
