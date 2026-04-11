@@ -101,7 +101,9 @@ linhas = table.length
 String r;
 r = "Digite uma string: "
 
-int k = c.legnth();
+int k = c.length();
 string s = r.substring(4, 10);
 ```
+
+# Python
 
