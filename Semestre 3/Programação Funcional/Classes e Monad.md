@@ -93,3 +93,14 @@ Abaixo, definimos uma função `lambda` que, dado um `x`, retorna `x*x - x + 1`.
 (\x -> x*x - x + 1)
 ```
 
+## Either
+
+* Left
+* Right
+
+## Monad Lista
+
+A mônada lista ([]) em Haskell representa computações não-determinísticas, onde uma única entrada pode produzir múltiplas saídas possíveis.
+
+Ela utiliza o operador bind (>>=) para aplicar funções que retornam listas a cada elemento, concatenando os resultados em uma lista plana, agindo como um "contexto" de possibilidades.
+
