@@ -134,10 +134,10 @@ Outra forma de calcular a área de uma superfície é usar a sua projeção no p
 
 A ideia é análoga:
 $$
-dA = (f_x \cdot dx) \times (f_y \cdot dy) = (f_x \times f_y)dxdy 
+dA = ||(f_x \cdot dx) \times (f_y \cdot dy)|| = ||f_x \times f_y||dxdy 
 $$
 $$
-\text{Área}(S) = \int\int_{D_{xy}} (f_x \times f_y)dxdy
+\text{Área}(S) = \int\int_{D_{xy}} ||f_x \times f_y||dxdy
 $$
 
 
