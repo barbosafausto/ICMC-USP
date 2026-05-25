@@ -87,24 +87,31 @@ Nesse caso, cada aresta $A$ é composta pela tripla $\{v, w, valor\}$.
 > **Não simples**: pode possuir vértices iguais.
 
 
-### Circuito 
+### Ciclo e Circuito 
 
-> É um caminho $P = v_1, v_2,..., v_k, v_{k+1}$ em que $v_{k+1} = v_1$. Em outras palavras, um circuito é um ciclo onde todos os vértices distintos, exceto pelo primeiro e pelo último.
+> Um ciclo é um caminho $P = v_1, v_2,..., v_k, v_{k+1}$ em que $v_{k+1} = v_1$. Em outras palavras, em um ciclo todos os vértices são distintos, exceto pelo primeiro e pelo último.
 * Se um grafo tem ao menos um ciclo, ele é cíclico.
+* Em um **circuito**, todas as arestas são distintas, mas vértices podem ser repetidos.
 
-###  Caminho Euliriano $vs$ Caminho Hamiltoniano
+###  Caminho Euleriano $vs$ Caminho Hamiltoniano
 
-> **Euliriano:** Caminho que passa por <span style="color: ORANGE">**todas as arestas**</span> de um grafo, de modo a passar em <span style="color: ORANGE">**cada aresta apenas uma vez**</span>.
+> **Euleriano:** Caminho que passa por <span style="color: ORANGE">**todas as arestas**</span> de um grafo, de modo a passar em <span style="color: ORANGE">**cada aresta apenas uma vez**</span>.
 
 > **Hamiltoniano:** Caminho que passa em <span style="color: ORANGE">**todos os vértices**</span> de um grafo visitando cada <span style="color: ORANGE">**vértice apenas uma vez**</span>.
+
+### Circuito Euleriano $vs$ Circuito Hamiltoniano
+
+**Circuito Euleriano**: passa por todos as arestas do grafo exatamente 1 vez e, por consequência, todos os vértices (se o grafo for conexo). Sinônimo de ciclo euleriano. Volta ao vértice inicial.
+
+**Circuito Hamiltoniano**: passo por todos os vértices do grafo exatamente 1 vez, exceto o primeiro e o último. Pode faltar arestas. Sinônimo de ciclo hamiltoniano.
+
+⚠️ Um grafo euleriano/hamiltoniano é um grafo conexo que contém um circuito euleriano/hamiltoniano.
 
 $$
 E \implies A; \quad 
 H \implies V
 $$
 
-
-<span style="color:RED;">**Isso está certo?**</span>
 
 ### Grafo Fortemente Conexo
 
