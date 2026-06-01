@@ -4,9 +4,6 @@
 
 > Atendimento às terça-feiras (14h - 16h)
 
-🥇<span style="color: GREEN; font-weight: BOLD;"> Interessante estudar pelas listas e combiná-las à apostila que o professor usa.
-</span>
-
 ## Definição de Integral Dupla
 
 Uma integral dupla consiste na soma de Riemann em 2D:

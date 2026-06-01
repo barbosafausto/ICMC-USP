@@ -1,4 +1,6 @@
-# Superfícies Parametrizadas
+# Integrais de Superfícies
+
+## Superfícies Parametrizadas
 
 Vamos começar a trabalhar com campos vetoriais em superfícies, também chamados de fluxos.
 
@@ -77,6 +79,31 @@ Temos duas formas de parametrizar $f(x, y, z) \to f(u, v)$
 
 </center>
 
+## Toro de Revolução
+
+Pense no toro de revolução como um donut.
+
+A priori, temos a circuferência:
+$$
+(y - a)^2 + z^2 = b^2, \quad b < a
+$$
+Para formar o toro, ela é rotacionada em torno do eixo $z$.
+
+### Parametrização
+
+$f(x, y, z) \to f(\phi, \theta)$:
+
+$$
+x = (a + b\cos \phi)\cos\theta \\
+y = (a + b\cos \phi)\sin\theta \\
+z = b\sin\phi
+$$
+
+Em que: 
+
+* $\phi$ é o ângulo no sentido anti-horário de um ponto na circunferência, começando no primeiro quadrante dela.
+* $\theta$ é o ângulo equivalente ao das coordenadas polares.
+
 ## Plano Tangente
 
 Dizemos que uma superfície é <u>regular</u> se ela admite plano tangente em todos os seus pontos.
@@ -99,6 +126,7 @@ $$
 $$
 
 Caso contrário, não existe plano tangente à superfície.
+
 
 ## Área de Superfícies
 
@@ -157,4 +185,13 @@ Concluímos, então, que a área da superfície será dada por:
 $$
 \boxed{\text{Área}(S) = \int\int_{D_{xy}} \sqrt{1 + \left( \frac{\partial z}{\partial x} \right)^2 + \left( \frac{\partial z}{\partial y} \right)^2 }dxdy}
 $$
+
+# Apêndice A: Produto Vetorial
+
+Existe uma maneira de calcular o módulo de um produto vetorial:
+$$
+||\vec{u} \times \vec{v}||^2 = ||\vec{u}||^2\cdot ||\vec{v}||^2 - \langle u, v\rangle^2
+$$ 
+
+Tendo as coordenadas de cada vetor, é mais eficiente calcular da forma acima.
 
