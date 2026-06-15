@@ -1,0 +1,4 @@
+Vendedor {nome = "Carlos", cpf = "111", uf = "SP", aniversario = Data {ano = 1985, mes = 5, dia = 12}, dependentes = [10,15], vendas = [100,200,50]}
+Vendedor {nome = "Ana", cpf = "222", uf = "RJ", aniversario = Data {ano = 1992, mes = 8, dia = 21}, dependentes = [5], vendas = [500,100]}
+Vendedor {nome = "Beatriz", cpf = "333", uf = "SP", aniversario = Data {ano = 1980, mes = 1, dia = 10}, dependentes = [20,22], vendas = [300,300,300,300]}
+Vendedor {nome = "Zeca", cpf = "444", uf = "MG", aniversario = Data {ano = 1995, mes = 12, dia = 5}, dependentes = [], vendas = [10,20]}
